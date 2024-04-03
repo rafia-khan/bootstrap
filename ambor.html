@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambor</title>
+    <link rel="icon" type="image/x-icon" href="logo.57328a7282a829b28e02.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background:linear-gradient(to right,#e2e3e5 , #b6e7ef);
+        }
+        .cocontainer-fluid {
+          display: flex;
+          /* gap: 10px 30px; */
+          /* grid-template-columns: auto auto auto; */
+          background-color: #da112f → #069be0;
+          
+        }
+        
+        .grid-item {
+         
+          /* border: 1px solid rgba(0, 0, 0, 0.8); */
+          padding:3px;
+          font-size: 12px;
+          text-align: left;
+          font-weight: bold;
+          margin-bottom: 2px;
+          
+          
+         
+        }
+        .grid-item img{
+           height: 400px;
+        }
+        .nav-item{
+            padding: 10px;
+            
+        }
+        .nav-link{
+                color:blue;
+        }
+        .row{
+          padding-top: 20px;
+          margin-left: 25px;
+          border-radius: 90px;
+          box-shadow: #069be0;
+          margin-top: 15px;
+          text-align: center;
+          font-weight: bold;}
+
+          .card:hover {
+    box-shadow: 0 4px 8px aqua;
+    transform: scale(1.02);
+  }
+
+  .grid-item:hover{
+    box-shadow: 0 4px 8px blue;
+    transform: scale(1.02);
+
+  }
+
+  footer{
+  color: rgb(37, 37, 37);
+}
+
+
+.footer-bottom{
+  background:linear-gradient(to right,#a2adf3 , #92EFFD);
+  padding: 2em;
+}
+.footer-top{
+  background: #abdbf6;  
+}
+.footer-middle{
+   background:linear-gradient(to right,#a2adf3 , #92EFFD);
+  padding-top: 2em;
+  color: black;
+ padding-right: 9em;
+
+}
+.card-body a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item:hover{
+  background-color:#AED6F1 ;
+}
+
+.mainfooter{
+  font-size: larger;
+}
+        
+
+        
+        
+        </style>
+</head>
+<body>
+
+    
+    
+    <nav class="navbar navbar-expand-lg bg-info"style="background: linear-gradient(to right, #93A5CF, #E4EfE9);!important">
+       
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="file:///E:/bootstrap/Sharee.html">Sharee</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="file:///E:/bootstrap/salwarkamij.html">Salwar Kamiz</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Kurti
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="file:///E:/bootstrap/couple.html#">Couple Dress</a></li>
+                  <li><a class="dropdown-item" href="#">kids Pajai</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Kids Kurti</a></li>
+                </ul>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Dupatta</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Unstitched</a>
+                  </li>
+                
+               
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+
+            <!-- logo -->
+          
+            <a href="file:///E:/bootstrap/ambor.html" style="display: block; text-align: center;">
+              <img style="width: 120px; height: 70px;margin-right: 80px; text-align: center; text-decoration: none; display: inline-block;" src="logo.57328a7282a829b28e02.png" alt="">
+            </a>
+            
+
+          <!-- logo -->
+            <form class="d-flex" role="search"style="height: 50px;">
+              <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search" style="border-radius: 50px;">
+
+              <button class="btn btn-outline-success" type="submit" style="border: none;">Search</button>
+              <div>
+                <button class="btn btn-outline-primary ms-3" type="button" style="border: none;">
+                    <img src="login.png" alt="Login" style="width: 40px;">Login 
+                    
+                  </button>
+              </div>
+              
+            
+            <div>
+                <button class="btn btn-outline-info ms-3 " type="button"  style="border: none;">
+                    <img src="cart.png" alt="Cart" style="width:  40px;">Cart</button>
+            </div>
+
+             <div>
+              <button class="btn btn-outline-warning ms-3 me-10 " type="button"  style="border: none;">
+                <img src="wishlist.png" alt="Wishlist" style="width: 40px;">Wishlist</button>
+            </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- carousel one -->
+    <div style="width: 100%;  display: flex;">
+
+        <div style="width: 50%;">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="Discount-Banner-1-New.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="1000">
+                    <img src="Discount-Banner-2-New.jpg" class="d-block w-100" alt="...">
+                  </div>
+                 
+                </div>
+              </div>
+        </div>
+           
+        <div style="width: 50%;">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="Discount-Banner-4-New.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="1000">
+                    <img src="Discount-Banner-5-New.jpg" class="d-block w-100" alt="...">
+                  </div>
+                 
+                </div>
+              </div>
+        </div>
+       
+    </div>
+
+    <!-- carousel end -->
+    
+<!-- Grid -->
+    <div class="container-fluid" style="display: flex;">
+        <div class="grid-item">
+            <img src="Badhon_Kurti0.jpg" alt="">
+            Badhon_Kurti <br> Tk 1500
+        </div>
+        <div class="grid-item">
+            <img src="Nidra_Baby_Kurti0.jpg" alt="">
+            Nidra kurti <br>Tk 1800
+        </div>
+        <div class="grid-item">
+            <img src="Himu_Baby_Kurti0.jpg"  alt="">
+            Himu Kurty <br>Tk 2000
+        </div>  
+         <div class="grid-item">
+            <img src="Kobori_Saree0.jpg" alt="">
+            Kobori Kurty <br>Tk 1900
+        </div>
+
+        <div class="grid-item">
+            <img src="Akhi_Salwar_Kamiz0.jpg" alt="">
+            Akhi Salwar Kamiz <br>Tk 2100
+         </div>
+    </div>
+
+
+     <div class="cocontainer-fluid" style="display: flex;margin-top: 25px;">
+
+        <div class="grid-item">
+            <img src="mom1.jpg" alt="">
+            Fagun Baby <br>Tk 1350
+        </div>  
+        <div class="grid-item">
+            <img src="panjai/p.jpg" alt="">
+            Prodit-Panjabi <br>Tk 2000
+        </div>
+        <div class="grid-item">
+            <img src="Protibha_Baby_Kurti0.jpg" alt="">
+            Protibha-Baby-Kurti <br>Tk 2100
+        </div>
+        <div class="grid-item">
+            <img src="Punom-Orna0.jpg" alt="">
+            Punom-Orna <br>Tk 1500
+        </div> 
+        <div class="grid-item">
+          <img src="baby/babykurty0 (8).jpg" style="width: 225px;" alt="">
+          Shimul-Panjabi <br>Tk 1500
+      </div> 
+     
+    </div>
+    <!-- grid end -->
+
+
+      <!-- 2nd carousel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner" style="margin-top: 60px;">
+        <!-- <div class="carousel-item active" data-bs-interval="10000">
+          <img src="_n.jpg" class="d-block w-100" style="height: 450px;" alt="...">
+        </div> -->
+        <div class="carousel-item active" data-bs-interval="1000">
+          <img src="banner.bb346d39d5ea8ca23763.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="banner_2.b98aca37344c44ceca4e.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      <!-- card -->
+    <div class="row">
+
+      <div class="col-3">
+        <div class="card" style="width: 20rem;">
+          <img src="Kurti.6d2dac19b87abe9eda40.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="file:///F:/bootstrap/kurty.html"><p class="card-text">KURTI</p></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card" style="width: 20rem;">
+          <img src="salwar.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="file:///E:/bootstrap/salwarkamij.html">
+            <p class="card-text">SALWAR KAMEEZ</p></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card" style="width: 20rem;">
+          <img src="logo3jpg.jpg" class="card-img-top"  style="height: 445px;" alt="...">
+          <div class="card-body">
+            <a href="file:///F:/bootstrap/Sharee.html"> <p class="card-text">SHAREE</p></a>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card" style="width: 20rem;">
+          <img src="panjai/2.jpg" class="card-img-top"  style="height: 445px;" alt="...">
+          <div class="card-body">
+          
+            <p class="card-text">Panjabi</p>
+          </div>
+        </div>
+      </div>
+
+     
+
+    </div>
+
+    <!-- card -->
+
+   
+      <div style="display: flex; width: 100%;margin: 0;  background:linear-gradient(to right,#a2adf3 , #92EFFD);" >
+
+        <div style="width: 50%;">
+          <img src="logo.57328a7282a829b28e02.png" style="width: 160px; height: 150px; margin-left: 55px; padding-top: 20px;" alt="">
+        </div>
+
+        <div style="width: 50%; text-align: right; padding-right: 55px;">
+          <p><h1>Contact Us
+          </h1></p>
+          <p><h4>01677796996</h4></p>
+
+        </div>
+      </div>
+
+      <!-- <div class="subnavigation-container">
+        <div class="container">
+      <nav class="navbar p-a-0">
+        <ul class="nav navbar-nav col-subnav"> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </nav>
+        </div>
+      </div> -->
+      
+      <!-- <div class="m-t-3"></div> -->
+      
+      <footer class="mainfooter" role="contentinfo">
+        <div class="footer-top p-y-2">
+          <div class="container-fluid">
+      
+          </div>, 
+        </div>
+        <div class="footer-middle">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h4>product <hr></h4>
+                <address>
+                  <a href="file:///E:/bootstrap/Sharee.html" style="text-decoration: none; color: black;"><p>Sharee</p></a>
+
+
+                     <a href="file:///E:/bootstrap/kurty.html" style="text-decoration: none; color: black;"><p>Kurti</p></a>
+                     
+                     <a href="file:///E:/bootstrap/salwarkamij.html"  style="text-decoration: none; color: black;"><p>salwar Kamiz</p></a>
+                     <p>Dopatta</p>
+                     <p>Unstitched</p>
+                    </address>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h4>Company <hr>
+                </h4>
+               About Us
+               Term and conditions
+               privacy Policy
+               Return Policy
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h4>Support <hr></h4>
+                <br>
+                Shipping & Exchange Policy
+                Size Guide
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h4>Contact <hr></h4> 
+                <br>
+                House # 06,Road # Mainroad 03,
+                Block # A, Mirpur 11,Dhaka.
+                contact@ambor.com.bd
+                +8801997721717
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <br>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <!--Footer Bottom-->
+                <p class="text-xs-center">&copy; Copyright 2016 - City of USA.  All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+
+
+
+      
+    
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
